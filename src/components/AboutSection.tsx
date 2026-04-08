@@ -32,7 +32,7 @@ const AboutSection = () => {
           >
          <div className="w-full h-80 rounded-xl overflow-hidden">
   <img 
-    src="/src/assets/rb1.jpeg" 
+    src="/images/rb1.jpeg"
     alt="profile"
     className="w-full h-full object-cover scale-125"
   />
@@ -61,9 +61,9 @@ const AboutSection = () => {
             </p>
             <div className="grid grid-cols-3 gap-4">
               {[
-                { num: "50+", label: "Projects" },
-                { num: "5+", label: "Years Exp." },
-                { num: "30+", label: "Happy Clients" },
+                { num: "10+", label: "Projects" },
+                { num: "1+", label: "Years Exp." },
+                { num: "5+", label: "Happy Clients" },
               ].map((stat) => (
                 <div key={stat.label} className="text-center glass-card rounded-xl p-4">
                   <p className="font-display text-2xl font-bold text-primary">{stat.num}</p>
