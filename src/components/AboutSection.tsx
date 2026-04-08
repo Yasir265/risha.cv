@@ -32,7 +32,7 @@ const AboutSection = () => {
           >
          <div className="w-full h-80 rounded-xl overflow-hidden">
   <img 
-    src="public/rb1.jpeg" 
+    src="assets/rb1.jpeg"
     alt="profile"
     className="w-full h-full object-cover scale-125"
   />
